@@ -160,7 +160,10 @@
     <objects name="Fixed">
       <object>objects\objComputer</object>
       <object>objects\objWaterflesje</object>
+      <object>objects\objApple</object>
+      <object>objects\objPotlood</object>
     </objects>
+    <object>objects\objLift</object>
   </objects>
   <help>
     <rtf>help.rtf</rtf>
