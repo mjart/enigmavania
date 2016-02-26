@@ -51,6 +51,8 @@
       <sprites name="sprTable">
         <sprite>sprites\sprTable</sprite>
       </sprites>
+      <sprite>sprites\sprAfvalmonster</sprite>
+      <sprite>sprites\sprAfval</sprite>
     </sprites>
     <sprite>sprites\sprCollision</sprite>
     <sprite>sprites\sprRampR</sprite>
@@ -64,17 +66,23 @@
       <sprite>sprites\sprApple</sprite>
       <sprite>sprites\sprComputer</sprite>
       <sprite>sprites\sprPowerup</sprite>
+      <sprite>sprites\sprKey</sprite>
     </sprites>
     <sprite>sprites\sprite35</sprite>
   </sprites>
   <backgrounds name="background">
     <background>background\bgGang</background>
+    <background>background\bgUnder</background>
+    <background>background\bgScie</background>
+    <background>background\bgLockets</background>
+    <background>background\bgTemplate</background>
     <background>background\background1</background>
     <background>background\bg_test</background>
     <background>background\bg_test2</background>
   </backgrounds>
   <paths name="paths"/>
   <scripts name="scripts">
+    <script>scripts\move_to.gml</script>
   </scripts>
   <shaders name="shaders">
     <shader type="GLSLES">shaders\shd_test.shader</shader>
@@ -83,6 +91,9 @@
     <shader type="GLSLES">shaders\shd_combine.shader</shader>
   </shaders>
   <objects name="objects">
+  <object>objects\objCharacter_new</object>
+    <object>objects\objPlatform</object>
+    <object>objects\objPlatformT</object>
     <objects name="Enemies">
       <objects name="Labcoat">
         <object>objects\objLabcoat</object>
@@ -178,6 +189,7 @@
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
+    <room>rooms\room1</room>
   </rooms>
   <help>
     <rtf>help.rtf</rtf>
