@@ -391,7 +391,7 @@ if keyboard_check_pressed(vk_up)
         </arguments>
       </action>
     </event>
-    <event eventtype="4" ename="objCollision">
+    <event eventtype="4" ename="objCharacter_new">
       <action>
         <libid>1</libid>
         <id>612</id>

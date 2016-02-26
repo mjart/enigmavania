@@ -25,7 +25,7 @@
         <arguments>
           <argument>
             <kind>1</kind>
-            <string>if objCharacter.y &lt;= y-31 {
+            <string>if objCharacter_new.y &lt;= y-31 {
 instance_create(x,y,objPlatform)
 instance_destroy()
 }

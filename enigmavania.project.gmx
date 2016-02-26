@@ -91,7 +91,7 @@
     <shader type="GLSLES">shaders\shd_combine.shader</shader>
   </shaders>
   <objects name="objects">
-  <object>objects\objCharacter_new</object>
+    <object>objects\objCharacter_new</object>
     <object>objects\objPlatform</object>
     <object>objects\objPlatformT</object>
     <objects name="Enemies">
@@ -186,6 +186,11 @@
     <object>objects\objRenderManager</object>
     <object>objects\objLight</object>
     <object>objects\obj_lightDemo</object>
+    <objects name="Collision">
+      <object>objects\objCollision</object>
+      <object>objects\objCollisionRampR</object>
+      <object>objects\objCollisionRampL</object>
+    </objects>
   </objects>
   <rooms name="rooms">
     <room>rooms\room0</room>
