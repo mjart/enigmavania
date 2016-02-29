@@ -36,8 +36,8 @@ void main()
     const vec2 crG = vec2(0.7071067812, -0.7071067812);
     const vec2 crB = vec2(0.0, 1.0);
     
-    float cosrot = cos(u_time * 5.0 * 2.0 * PI);
-    float sinrot = sin(u_time * 5.0 * 2.0 * PI);
+    float cosrot = cos(u_time * 2.0 * PI);
+    float sinrot = sin(u_time * 2.0 * PI);
     
     vec2 rR = vec2(cosrot * crR.x - sinrot * crR.y, sinrot * crR.x + cosrot * crR.y) * u_intensity;
     vec2 rG = vec2(cosrot * crG.x - sinrot * crG.y, sinrot * crG.x + cosrot * crG.y) * u_intensity;
